@@ -18,7 +18,7 @@ function App() {
             return (
               <tr>
                 <td>{item.txt}</td>
-                <td>{item.rate}</td>
+                <td>{item.rate.toFixed(3)}</td>
               </tr>
             );
           })}
